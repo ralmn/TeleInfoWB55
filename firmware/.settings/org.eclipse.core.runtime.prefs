@@ -1,0 +1,8 @@
+content-types/enabled=false
+content-types/org.eclipse.cdt.core.cHeader/file-extensions=h
+content-types/org.eclipse.cdt.core.cSource/file-extensions=c
+content-types/org.eclipse.cdt.core.cxxHeader/file-extensions=hpp
+content-types/org.eclipse.cdt.core.cxxHeader/file-names=main.h,**/main.h
+content-types/org.eclipse.cdt.core.cxxSource/file-extensions=cpp
+content-types/org.eclipse.cdt.core.cxxSource/file-names=main.c,**/main.c
+eclipse.preferences.version=1
