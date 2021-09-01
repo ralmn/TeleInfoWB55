@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 423)
+    (start_pass_no 5)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -69,13 +69,12 @@
     )
   )
   (class "kicad_default"
-    "Net-(AE1-Pad3)" "Net-(AE1-Pad1)" "Net-(C2-Pad2)" "Net-(C3-Pad1)" "Net-(C5-Pad2)" NRST "Net-(D2-Pad2)" "Net-(D3-Pad2)"
-    "Net-(D4-Pad2)" SWDIO SWCLK "Net-(J4-Pad4)" "Net-(J4-Pad2)" "Net-(R1-Pad1)" "Net-(R2-Pad2)" "Net-(R3-Pad2)"
-    "Net-(R5-Pad2)" "LINKY_DATA" "Net-(SW1-Pad2)" "Net-(U1-Pad49)" "Net-(U1-Pad46)" "Net-(U1-Pad44)" "Net-(U1-Pad42)" "Net-(U1-Pad40)"
-    "Net-(U1-Pad38)" "Net-(U1-Pad36)" "Net-(U1-Pad34)" "Net-(U1-Pad33)" "Net-(U1-Pad31)" "Net-(U1-Pad30)" "Net-(U1-Pad29)" "Net-(U1-Pad28)"
-    "Net-(U1-Pad27)" "Net-(U1-Pad26)" "Net-(U1-Pad25)" "Net-(U1-Pad24)" "Net-(U1-Pad19)" "Net-(U1-Pad18)" "Net-(U1-Pad17)" "Net-(U1-Pad16)"
-    "Net-(U1-Pad15)" "Net-(U1-Pad14)" "Net-(U1-Pad13)" "Net-(U1-Pad11)" "Net-(U1-Pad10)" "Net-(U1-Pad9)" "Net-(U1-Pad6)" "Net-(U1-Pad5)"
-    "Net-(U1-Pad1)"
+    "Net-(C2-Pad2)" "Net-(C3-Pad1)" NRST "Net-(D2-Pad2)" "Net-(D3-Pad2)" SWDIO SWCLK "Net-(J4-Pad4)"
+    "Net-(J4-Pad2)" "Net-(R2-Pad2)" "Net-(R3-Pad2)" "LINKY_DATA" "Net-(U1-Pad46)" "Net-(U1-Pad44)" "Net-(U1-Pad42)" "Net-(U1-Pad40)"
+    "Net-(U1-Pad30)" "Net-(U1-Pad29)" "Net-(U1-Pad28)" "Net-(U1-Pad27)" "Net-(U1-Pad26)" "Net-(U1-Pad25)" "Net-(U1-Pad24)" "Net-(U1-Pad19)"
+    "Net-(U1-Pad17)" "Net-(U1-Pad16)" "Net-(U1-Pad15)" "Net-(U1-Pad14)" "Net-(U1-Pad13)" "Net-(U1-Pad11)" "Net-(U1-Pad10)" "Net-(U1-Pad9)"
+    "Net-(U1-Pad6)" "Net-(U1-Pad5)" "Net-(C5-Pad1)" "Net-(C11-Pad1)" VFBFMPS "Net-(FL1-Pad5)" "Net-(L3-Pad1)" VLXSMPS
+    "Net-(U1-Pad43)" "Net-(4.7K1-Pad1)" "BT_UART_TX" "BT_UART_RX" "Net-(J5-Pad4)" "USB_DP" "USB_DM" "Net-(SW2-Pad2)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -86,11 +85,12 @@
     )
   )
   (class Double
-    GND +3V3 "Net-(C6-Pad1)" "Net-(C9-Pad2)" A I1 +5V I2
+    GND "Net-(C6-Pad1)" "Net-(C9-Pad2)" A I1 +5V I2 VBAT
+    VDDA
     (clearance_class Double)
     (via_rule Double)
     (rule
-      (width 200.0)
+      (width 350.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
