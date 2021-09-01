@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name Customs)(type KiCad)(uri /Users/ralmn/Developpement/TeleInfo/Kicad/TeleInfoSTM32WB/libs)(options "")(descr ""))
+  (lib (name Customs)(type KiCad)(uri ${KIPRJMOD}/libs)(options "")(descr ""))
+  (lib (name STM32)(type KiCad)(uri ${KIPRJMOD}/libs/stm32/footprint.pretty)(options "")(descr ""))
+  (lib (name RSP-122811-01)(type KiCad)(uri ${KIPRJMOD}/libs/RSP-122811-01)(options "")(descr ""))
 )
